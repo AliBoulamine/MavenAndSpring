@@ -5,18 +5,12 @@ import org.springframework.stereotype.Component;
 @Component
 public class Alien {
 	
-	private int age;
+	private int age;	
+	private Computer com;	
 	
-	private Laptop laptop;
-	
-//	public Alien() {
-//		System.out.println("Alien Object created.");
-//	}
-	
-	public Alien(int age) {
-		this.age = age;
-	}
-	
+	public Alien() { 
+		System.out.println("Alien Object created.");
+	}	
 	
 	public int getAge() {
 		return age;
@@ -26,18 +20,18 @@ public class Alien {
 		this.age = age;
 		System.out.println("Age assigned");
 	}
-	
-	public Laptop getLaptop() {
-		return laptop;
+
+	public Computer getComputer() {
+		return com;
 	}
 
-	public void setLaptop(Laptop laptop) {
-		this.laptop = laptop;
+	public void setComputer(Computer com) {
+		this.com = com;
 	}
 
 	public void code() {
 		System.out.println("I am coding...");
-		laptop.compile();
+		com.compile();
 	}
 
 }

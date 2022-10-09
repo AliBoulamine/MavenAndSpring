@@ -1,8 +1,8 @@
 package com.aaeetii.projetmaven;
 
-public class Laptop {
+public class Laptop implements Computer {
 
 	public void compile() {
-		System.out.println("Compiled");
+		System.out.println("Code compiled in a Laptop");
 	}
 }
