@@ -9,9 +9,14 @@ public class Alien {
 	
 	private Laptop laptop;
 	
-	public Alien() {
-		System.out.println("Alien Object created.");
+//	public Alien() {
+//		System.out.println("Alien Object created.");
+//	}
+	
+	public Alien(int age) {
+		this.age = age;
 	}
+	
 	
 	public int getAge() {
 		return age;
