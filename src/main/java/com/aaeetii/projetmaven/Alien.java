@@ -21,11 +21,11 @@ public class Alien {
 		System.out.println("Age assigned");
 	}
 
-	public Computer getComputer() {
+	public Computer getCom() {
 		return com;
 	}
 
-	public void setComputer(Computer com) {
+	public void setCom(Computer com) {
 		this.com = com;
 	}
 

@@ -7,7 +7,7 @@
 		<property name="age" value="10"></property>
 	</bean>
 	
-	<bean id="com" class="com.aaeetii.projetmaven.Laptop"></bean>
-	<!-- <bean id="desktop" class="com.aaeetii.projetmaven.Desktop"></bean>-->
+	<bean id="com" class="com.aaeetii.projetmaven.Laptop" primary="true"></bean>
+	<bean id="desktop" class="com.aaeetii.projetmaven.Desktop"></bean>
 	
 </beans>
